@@ -1,15 +1,18 @@
 .genreIcon{
-    max-width: 30%;
+    max-width: 50%;
     z-index: auto;
 }
 
 .genreCardContainer{
     background-color: rgb(215,215,215);
     border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 1em;
 }
 
 .cardBtn{
     z-index: 10;
+    transform:  translate(32%, -150%);;
 }
 
 .logo{

@@ -1,14 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
 .buttonStyle{
     background-color: rgb(93, 209, 51);
-    border-radius: 10%;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    border-radius: 100px 100px 100px 100px;
+    padding: 10px 60px;
     color: white;
-    font-family:Poppins;
+    font-family:'Poppins';
     font-weight: bold;
-    font-size: large;
-    height: 30%;
-    width: 60%;
+    font-size: 2em;
+    text-align: center;
 }
