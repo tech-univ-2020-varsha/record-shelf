@@ -1,0 +1,12 @@
+.sync{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+.syncBtn{
+    height: 30%;
+    width: 30%;
+}

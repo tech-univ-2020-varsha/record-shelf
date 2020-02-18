@@ -1,0 +1,14 @@
+.buttonStyle{
+    background-color: rgb(93, 209, 51);
+    border-radius: 10%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-family:Poppins;
+    font-weight: bold;
+    font-size: large;
+    height: 30%;
+    width: 60%;
+}
