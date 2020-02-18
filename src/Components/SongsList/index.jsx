@@ -20,24 +20,9 @@ const SongsList = (props) => {
       </div>
       <div className={styles.songCards}>
         <div className={styles.card}>
-          <SongCard
-            albumArtUrl="https://i.scdn.co/image/cf4eb99a7d69d2b84fcc564eb1fc57ac4badbfaf"
-            artists={[
-              'OneRepublic',
-              'Seeb',
-            ]}
-            albumName="Rich Love"
-          />
-        </div>
-        <div className={styles.card}>
-          <SongCard
-            albumArtUrl="https://i.scdn.co/image/cf4eb99a7d69d2b84fcc564eb1fc57ac4badbfaf"
-            artists={[
-              'OneRepublic',
-              'Seeb',
-            ]}
-            albumName="Rich Love"
-          />
+          {
+  genreSongs.map((song) => <SongCard albumArtUrl={song.albumArtUrl} artists={song.artists} albumName={song.albumName} />)
+  }
         </div>
       </div>
     </div>
