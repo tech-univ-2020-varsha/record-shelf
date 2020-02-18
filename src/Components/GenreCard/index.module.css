@@ -1,0 +1,18 @@
+.genreIcon{
+    max-width: 30%;
+    z-index: auto;
+}
+
+.genreCardContainer{
+    background-color: rgb(215,215,215);
+    border-radius: 2em;
+}
+
+.cardBtn{
+    z-index: 10;
+}
+
+.logo{
+align-self: flex-start;
+}
+

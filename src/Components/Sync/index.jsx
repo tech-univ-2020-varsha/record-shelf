@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
+import { Link } from 'react-router-dom';
 import Button from '../Button';
 import * as styles from './index.module.css';
 import segregateData from '../../utils/segregateData';
@@ -29,7 +30,9 @@ const Sync = () => {
   return (
     <div className={styles.sync}>
       <div className={styles.syncBtn}>
-        <Button buttonOnClick={syncButtonClick}> sync</Button>
+        <Link to="/genres">
+          <Button buttonOnClick={syncButtonClick}> sync</Button>
+        </Link>
       </div>
 
     </div>

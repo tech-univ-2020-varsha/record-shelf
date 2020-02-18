@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Sync from './Components/Sync';
+import Genres from './Components/Genres';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Sync />
           </Route>
 
-          {/* <Route exact path="/genres"><Genres /></Route> */}
+          <Route exact path="/genres"><Genres /></Route>
 
         </Switch>
       </Router>

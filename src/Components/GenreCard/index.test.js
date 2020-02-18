@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import Genres from '.';
+import GenreCard from '.';
 
-describe('the genres', () => {
+describe('the genre card', () => {
   it('should render correctly', () => {
-    const { asFragment } = render(<Genres />);
+    const { asFragment } = render(<GenreCard />);
     expect(asFragment).toMatchSnapshot();
   });
 });
