@@ -13,7 +13,9 @@ import SongsList from './Components/SongsList';
 function App() {
   return (
     <div className="App">
-
+      <div className="header">
+        Record shelf
+      </div>
       <Router>
         <Switch>
           <Route exact path="/">
