@@ -1,0 +1,36 @@
+
+
+.songCards{
+    margin: 0;
+    height: 100%;
+    display: flex;
+  flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 100%;
+    background-color: rgb(215,215,215);
+    border-radius: 10%;
+    padding: 2em;
+    margin: 2em;
+}
+
+.songListContainer{
+    background-color: rgb(245,245,245);
+    margin: 0 6em 0 6em ;
+    height: 100%;
+    width: 100%;
+}
+.songCards>div{
+    flex: 0 50%;
+}
+
+
+.genreTypeText{
+    color: black;
+    font-family:Poppins;
+    font-weight: bold;
+    font-size: 3em;
+}

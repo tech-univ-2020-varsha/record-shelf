@@ -7,6 +7,8 @@ import {
 import './App.css';
 import Sync from './Components/Sync';
 import Genres from './Components/Genres';
+import SongsList from './Components/SongsList';
+
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
           </Route>
 
           <Route exact path="/genres"><Genres /></Route>
-
+          <Route exact path="/genres/songs" component={SongsList} />
         </Switch>
       </Router>
     </div>

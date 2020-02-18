@@ -1,0 +1,14 @@
+.songCardContainer{
+    display: flex;
+    background-color: rgb(210,210,210);
+    flex-direction: column;
+}
+
+.albumPicture{
+    display: flex;
+    border-radius:50%;
+    padding: 1em;
+    max-width: 40%;
+    /* align-self: center; */
+   
+}
