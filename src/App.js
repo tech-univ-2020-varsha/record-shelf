@@ -1,12 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './App.css';
 import Sync from './Components/Sync';
 
 function App() {
   return (
     <div className="App">
-      <Sync />
+
+      <Router>
+        <Switch>
+          <Route exact path="/">
+
+            <Sync />
+          </Route>
+
+          {/* <Route exact path="/genres"><Genres /></Route> */}
+
+        </Switch>
+      </Router>
     </div>
   );
 }
