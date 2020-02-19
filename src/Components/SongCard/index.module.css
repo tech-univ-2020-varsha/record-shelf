@@ -23,3 +23,18 @@
 font-size: 0.8em;
 font-weight: bolder;
 }
+
+.albumNameArtists{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.albumDetails{
+display: flex;
+}
+
+
+.love{
+    justify-self: flex-end;
+}
