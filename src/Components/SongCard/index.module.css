@@ -1,14 +1,25 @@
 .songCardContainer{
     display: flex;
-    background-color: rgb(210,210,210);
     flex-direction: column;
+    padding: 2em;
 }
 
 .albumPicture{
     display: flex;
     border-radius:50%;
     padding: 1em;
-    max-width: 40%;
+    max-width: 88%;
+    justify-self: center;
     /* align-self: center; */
-   
+}
+
+.albumName{
+    font-size: 1.2em;
+    color: rgb(117, 117, 117);
+}
+
+
+.artists{
+font-size: 0.8em;
+font-weight: bolder;
 }

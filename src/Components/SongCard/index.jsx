@@ -8,10 +8,10 @@ const SongCard = ({ albumArtUrl, artists, albumName }) => (
     <div>
       <img src={albumArtUrl} alt={albumName} className={styles.albumPicture} />
     </div>
-    <div>
+    <div className={styles.albumName}>
       {albumName}
     </div>
-    <div>
+    <div className={styles.artists}>
       {artists.toString()}
     </div>
   </div>
